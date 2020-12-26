@@ -1,0 +1,27 @@
+.navbar-component {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-component>* {
+    flex-basis: 50%;
+}
+
+.kodluyoruz-logo {
+    height: 2.5rem;
+    max-width: 100%;
+    width: 200px;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
