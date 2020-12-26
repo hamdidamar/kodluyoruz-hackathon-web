@@ -13,6 +13,7 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { OldHacksDetailComponent } from './old-hacks-detail/old-hacks-detail.component';
 import { NewHacksDetailComponent } from './new-hacks-detail/new-hacks-detail.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
